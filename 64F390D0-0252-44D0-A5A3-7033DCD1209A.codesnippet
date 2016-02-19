@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - UITableViewDataSource
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+  return &lt;#number#&gt;;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView
+ numberOfRowsInSection:(NSInteger)section
+{
+  return &lt;#number#&gt;;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#reuseIdentifier#&gt; forIndexPath:&lt;#indexPath#&gt;];
+  
+  [self configureCell:cell forRowAtIndexPath:indexPath];
+  
+  return cell;
+}
+
+- (void)configureCell:(UITableViewCell *)cell
+    forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+  &lt;#statements#&gt;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>64F390D0-0252-44D0-A5A3-7033DCD1209A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tableviewdatasource</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
